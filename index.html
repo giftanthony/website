@@ -47,10 +47,11 @@
             <h2 class="section-title" data-i18n="about_title">About me</h2>
             <div class="about-content">
                 <div class="about-text">
-                    <p><u><span data-i18n="about_subtitle">As part of my retraining, I am creating a simple portfolio website.</span></u></p>
-                    <p data-i18n="about_text1"></p>
-                    <p data-i18n="about_text2"></p>
-                    <p data-i18n="about_text3"></p>
+                    <p><u><b data-i18n="about_subtitle">As part of my retraining, I am creating a simple portfolio website.</b></u></p>
+                    <br>
+                    <p data-i18n="about_text1">With over 10 years of experience in <b>Product Ownership</b> within <b>E-Commerce</b>, I help companies strategically develop digital products.</p>
+                    <br>
+                    <p data-i18n="about_text2">My current focus is on integrating <b>AI-powered approaches</b> to make products smarter. Additionally, I bring extensive expertise in <b>SEO management</b> to enhance digital visibility.</p>
                 </div>
                 <div class="about-image">
                     <img src="https://i.imgur.com/w5td7rA.jpeg" alt="Profile">
@@ -59,8 +60,100 @@
         </div>
     </section>
 
-    <!-- Rest of your sections (Skills, Projects, Contact, Footer) remain the same -->
-    <!-- ... -->
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title" data-i18n="skills_title">My Skills</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <i class="fab fa-html5"></i>
+                    <h3 data-i18n="skill1_title">HTML5 / CSS3</h3>
+                    <p data-i18n="skill1_text">Structure, Function, Design</p>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3 data-i18n="skill2_title">Jira & more</h3>
+                    <p data-i18n="skill2_text">Project management tool</p>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-js"></i>
+                    <h3 data-i18n="skill3_title">JavaScript</h3>
+                    <p data-i18n="skill3_text">Interactive Web Development</p>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-react"></i>
+                    <h3 data-i18n="skill4_title">Python / Pycharm</h3>
+                    <p data-i18n="skill4_text">AI-powered solutions & API</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="projects_title">My Projects</h2>
+            <div class="projects-container">
+                <div class="project">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Project 1">
+                    <div class="project-info">
+                        <h3 data-i18n="project1_title">Product Owner</h3>
+                        <p data-i18n="project1_text">I analyze requirements and prioritize the backlog. Through collaboration, I ensure the product meets market needs.</p>
+                        <a href="#" class="btn" data-i18n="view_project">View Project</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Project 2">
+                    <div class="project-info">
+                        <h3 data-i18n="project2_title">Website & E-Commerce</h3>
+                        <p data-i18n="project2_text">Complete modern website solutions. We offer intelligent automation that optimizes business processes.</p>
+                        <a href="#" class="btn" data-i18n="view_project">View Project</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="https://images.unsplash.com/photo-1559028012-481c04fa702d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Project 3">
+                    <div class="project-info">
+                        <h3 data-i18n="project3_title">My Work</h3>
+                        <p data-i18n="project3_text">Please log in to access this content. Certain areas are reserved for registered users.</p>
+                        <a href="#" class="btn" data-i18n="view_project">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title" data-i18n="contact_title">Contact me</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name" data-i18n="name_label">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email" data-i18n="email_label">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message" data-i18n="message_label">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="btn" data-i18n="send_button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://www.facebook.com/HerrNeRd" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/gift-anthony-272754112/"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p data-i18n="footer_text">Made by Gift Anthony © 2025</p>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>
